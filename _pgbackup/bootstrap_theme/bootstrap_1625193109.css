@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Arvo|Arvo&display=swap");
 html {
   font-size: 105% !important; }
 
@@ -8097,6 +8098,15 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+h1, .h1 {
+  font-family: 'Arvo', serif !important; }
+
+h2, .h2 {
+  font-family: 'Arvo', serif !important; }
+
+h3, .h3 {
+  font-family: 'Arvo', serif !important; }
 
 body, html {
   min-height: 100vh; }

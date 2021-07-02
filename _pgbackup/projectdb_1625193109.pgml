@@ -14,7 +14,7 @@
                 <dmcolor key="dark" color="#212529"/> 
             </dmdesignskill>             
             <dmdesignskill skill="fonts" text_family headings_family headings_weight="" text_weight text_color="" text_spacing="" text_effect="" text_italic="" text_smallcaps="" text_uppercase="" headings_color="" headings_spacing="" headings_effect="" headings_italic="" headings_smallcaps="" headings_uppercase=""></dmdesignskill>             
-            <dmdesignskill skill="headings" h1_spacing="" h1_weight="" h1_family h1_color="" h1_effect="" h1_italic="" h1_smallcaps="" h1_uppercase="" h2_family h2_weight="" h2_color="" h2_spacing="" h2_effect="" h2_italic="" h2_smallcaps="" h2_uppercase="" h3_family></dmdesignskill>             
+            <dmdesignskill skill="headings" h1_spacing="" h1_weight="" h1_family="Arvo" h1_color="" h1_effect="" h1_italic="" h1_smallcaps="" h1_uppercase="" h2_family="Arvo" h2_weight="" h2_color="" h2_spacing="" h2_effect="" h2_italic="" h2_smallcaps="" h2_uppercase="" h3_family="Arvo"></dmdesignskill>             
             <dmdesignskill skill="background" image_for_colors="true" image></dmdesignskill>             
             <dmdesignskill skill="bootstrap" sizer="1" buttonRoundness="3" gradients="1" responsive_fonts="1" roundness="2" shadows="3"></dmdesignskill>             
         </dmdesign>         
