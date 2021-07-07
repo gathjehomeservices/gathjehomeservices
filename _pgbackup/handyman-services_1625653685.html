@@ -13,9 +13,9 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="bg-white navbar navbar-expand-lg navbar-light py-lg-1 text-uppercase" data-pgc="ghs.nav"> 
-            <div height="100" class="container"> 
-                <a href="index.html"><img width="250" height="100" src="assets/img/GHS_Logo_small.png"/></a> 
+        <nav class="bg-white navbar navbar-expand-lg navbar-light py-lg-1 text-uppercase" data-pgc-define="ghs.nav" data-pgc-define-name="nav" data-pgc-define-description="navbar"> 
+            <div class="container">
+                <a href="index.html"><img src="assets/img/GHS_Logo_small.png" height="100"/></a>
                 <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-6" aria-controls="navbarNavDropdown-6" aria-expanded="false" aria-label="Toggle navigation"> 
                     <span class="navbar-toggler-icon"></span> 
                 </button>                 
@@ -28,8 +28,10 @@
                             <a class="nav-link px-lg-3 py-lg-4 text-end" href="handyman-services.html">Handyman Services</a> 
                         </li>                         
                     </ul>                     
-                    <a href="https://clienthub.getjobber.com/client_hubs/bb751702-bf37-4284-a902-b8d67afac289/public/work_request/new?source=social_media" class="btn btn-secondary" target="_pg_blank">Book Online</a> 
-                </div>                 
+                    <button name="button" type="button" id="work-request-button-bb751702-bf37-4284-a902-b8d67afac289" style="display: inline-flex;color:#ffffff;background-color:#0f2748;align-items:center;justify-content:center;min-height:36px;padding:8px 12px;font-family:'Noto Sans',Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1;-webkit-font-smoothing:antialiased;-webkit-appearance:none;text-align:center;text-decoration:none;border:1px solid transparent;border-radius:4px;outline:none;cursor:pointer;vertical-align:middle;">Book Online</button>                     
+                    <link rel="stylesheet" media="screen" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css"/> 
+                    <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_dialog_snippet.js" clienthub_id="bb751702-bf37-4284-a902-b8d67afac289" form_url="https://clienthub.getjobber.com/client_hubs/bb751702-bf37-4284-a902-b8d67afac289/public/work_request/embedded_dialog_work_request_form"></script>                     
+                </div>
             </div>             
         </nav>
         <section class="background-cover pb-5 pt-5 text-center text-white" style="background-image: -webkit-linear-gradient(90deg, rgba(46, 91, 103, 0.5) 1.47059%, rgba(46, 91, 103, 0.53) 1.47059%),url('assets/img/cover3.jpg');">
@@ -52,50 +54,6 @@
                     </div>                     
                 </div>                 
             </div>
-            <footer class="bg-light pt-5 text-secondary" data-pgc="ghs.footer"> 
-                <div class="container"> 
-                    <div class="row"> 
-                        <div class="col-xl-7 me-auto py-3"> 
-                            <a href="#" class="d-inline-block h2 mb-4 text-decoration-none text-uppercase" target="_pg_blank">Gathje Home Services</a> 
-                            <p class="mb-3">From single visit home repairs to small remodels and full service home maintenance,&nbsp; Gathje Home Services has the experience and expertise needed to serve you well!</p> 
-                            <div class="mb-4"> 
-                                <a href="tel:5074214337">507-421-4337</a> 
-                                <br> 
-                                <a href="mailto:service@gathjehomeservices.com">service@gathjehomeservices.com</a> 
-                            </div>                             
-                        </div>                         
-                        <div class="col-sm-4 col-xl-3 py-3"> 
-                            <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Services</h2> 
-                            <ul class="list-unstyled"> 
-                                <li class="mb-3"> 
-                                    <a href="home-maintenance-plan.html" class="text-secondary">Home Maintenance Plan</a> 
-                                </li>                                 
-                                <li class="mb-3"> 
-                                    <a href="handyman-services.html" class="text-secondary">Handyman Services</a>
-                                </li>                                 
-                                <li class="mb-3"> 
-                                    <a href="Specialties" class="text-secondary">Specialties</a>
-                                </li>                                 
-                            </ul>                             
-                        </div>                         
-                        <div class="col-sm-4 col-xl-2 py-3"> 
-                            <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Other</h2> 
-                            <ul class="list-unstyled"> 
-                                <li class="mb-3"> 
-                                    <a href="index.html" class="text-secondary">Home</a> 
-                                </li>                                 
-                            </ul>                             
-                        </div>                         
-                        <div class="col-sm-4 col-xl-2 py-3"> 
-                            <a href="https://clienthub.getjobber.com/client_hubs/bb751702-bf37-4284-a902-b8d67afac289/public/work_request/new?source=social_media" class="btn btn-secondary" target="_pg_blank">Book Online</a> 
-                        </div>                         
-                    </div>                     
-                    <div class="pb-3 pt-3 text-center"> 
-                        <hr class="mt-0 "> 
-                        <p class="mb-0">Copyright &copy; 2021 Gathje Home Services</p> 
-                    </div>                     
-                </div>                 
-            </footer>
         </section>
         <!-- Bootstrap core JavaScript
     ================================================== -->

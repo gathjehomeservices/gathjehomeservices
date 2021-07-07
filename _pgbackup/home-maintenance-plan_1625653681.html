@@ -14,9 +14,9 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="bg-white navbar navbar-expand-lg navbar-light py-lg-1 text-uppercase" data-pgc="ghs.nav"> 
-            <div height="100" class="container"> 
-                <a href="index.html"><img width="250" height="100" src="assets/img/GHS_Logo_small.png"/></a> 
+        <nav class="bg-white navbar navbar-expand-lg navbar-light py-lg-1 text-uppercase" data-pgc-define="ghs.nav" data-pgc-define-name="nav" data-pgc-define-description="navbar"> 
+            <div class="container">
+                <a href="index.html"><img src="assets/img/GHS_Logo_small.png" height="100"/></a>
                 <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-6" aria-controls="navbarNavDropdown-6" aria-expanded="false" aria-label="Toggle navigation"> 
                     <span class="navbar-toggler-icon"></span> 
                 </button>                 
@@ -29,8 +29,10 @@
                             <a class="nav-link px-lg-3 py-lg-4 text-end" href="handyman-services.html">Handyman Services</a> 
                         </li>                         
                     </ul>                     
-                    <a href="https://clienthub.getjobber.com/client_hubs/bb751702-bf37-4284-a902-b8d67afac289/public/work_request/new?source=social_media" class="btn btn-secondary" target="_pg_blank">Book Online</a> 
-                </div>                 
+                    <button name="button" type="button" id="work-request-button-bb751702-bf37-4284-a902-b8d67afac289" style="display: inline-flex;color:#ffffff;background-color:#0f2748;align-items:center;justify-content:center;min-height:36px;padding:8px 12px;font-family:'Noto Sans',Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1;-webkit-font-smoothing:antialiased;-webkit-appearance:none;text-align:center;text-decoration:none;border:1px solid transparent;border-radius:4px;outline:none;cursor:pointer;vertical-align:middle;">Book Online</button>                     
+                    <link rel="stylesheet" media="screen" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css"/> 
+                    <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_dialog_snippet.js" clienthub_id="bb751702-bf37-4284-a902-b8d67afac289" form_url="https://clienthub.getjobber.com/client_hubs/bb751702-bf37-4284-a902-b8d67afac289/public/work_request/embedded_dialog_work_request_form"></script>                     
+                </div>
             </div>             
         </nav>
         <section class="background-cover pb-5 pt-5 text-center text-white" style="background-image: -webkit-linear-gradient(90deg, rgba(46, 91, 103, 0.5) 1.47059%, rgba(46, 91, 103, 0.53) 1.47059%),url('assets/img/cover2.jpg');">
@@ -148,7 +150,7 @@ access, and I&rsquo;ll be on the job!</p>
         <section class="pb-5 pt-5 text-center"> 
             <div class="container pb-4 pt-4"> 
                 <h3 class="fw-bold h2 mb-3">Plan Pricing Examples</h3>
-                <p class="fw-light mb-4 text-secondary">Plans and prices will be personalized to your home and lifestyle</p> 
+                <p class="fw-light mb-4 text-secondary">Plans will be personalized to your home and lifestyle</p> 
                 <div class="align-items-center justify-content-center g-0 row"> 
                     <div class="col-lg-4 col-md-6 py-3"> 
                         <div class="bg-light rounded shadow text-secondary"> 
@@ -160,13 +162,11 @@ access, and I&rsquo;ll be on the job!</p>
                             <h4 class="bg-dark fw-bold h3 mb-0 pb-3 pe-2 ps-2 pt-3 text-uppercase text-white">HMP - Basic</h4> 
                             <div class="pb-4 ps-3 pe-3 pt-4"> 
                                 <ul class="list-unstyled mb-4"> 
-                                    <li class="pb-2 pt-2">Complete Visual Inspection</li>                                     
-                                    <li class="pb-2 pt-2">
-                                        <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">Inspect/Repair Known Issues</blockquote>
-                                    </li>                                     
-                                    <li class="pb-2 pt-2">Winterize Exterior of House</li>                                     
-                                    <li class="pb-2 pt-2">Clean and Test HVAC System</li>                                     
-                                    <li class="pb-2 pt-2">Check Window and Door Flashing</li>                                     
+                                    <li class="pb-2 pt-2"></li>                                     
+                                    <li class="pb-2 pt-2">10 GB Storage</li>                                     
+                                    <li class="pb-2 pt-2">500 GB Bandwidth</li>                                     
+                                    <li class="pb-2 pt-2">Custom Domain</li>                                     
+                                    <li class="pb-2 pt-2">24/7 Support</li>                                     
                                 </ul>                                 
                                 <a href="#" class="btn btn-dark">Sign Up</a> 
                             </div>                             
@@ -182,11 +182,11 @@ access, and I&rsquo;ll be on the job!</p>
                             <h4 class="bg-primary fw-bold h3 mb-0 pb-3 pe-2 ps-2 pt-3 text-uppercase text-white">HMP - Core</h4> 
                             <div class="pb-4 ps-3 pe-3 pt-4"> 
                                 <ul class="list-unstyled mb-4"> 
-                                    <li class="pb-2 pt-2">Everything in HMP-Basic +</li>                                     
-                                    <li class="pb-2 pt-2">Change HVAC Filters</li>                                     
-                                    <li class="pb-2 pt-2">Clean Garbage Disposal</li>                                     
-                                    <li class="pb-2 pt-2">Replace Hard to Reach Lightbulbs</li>                                     
-                                    <li class="pb-2 pt-2">Fix Squeeky Hinges/Loose Handles</li>                                     
+                                    <li class="pb-2 pt-2">100 Pages</li>                                     
+                                    <li class="pb-2 pt-2">100 GB Storage</li>                                     
+                                    <li class="pb-2 pt-2">2 TB Bandwidth</li>                                     
+                                    <li class="pb-2 pt-2">Custom Domain</li>                                     
+                                    <li class="pb-2 pt-2">24/7 Support</li>                                     
                                 </ul>                                 
                                 <a href="#" class="btn btn-primary">Sign Up</a> 
                             </div>                             
@@ -202,12 +202,11 @@ access, and I&rsquo;ll be on the job!</p>
                             <h4 class="bg-dark fw-bold h3 mb-0 pb-3 pe-2 ps-2 pt-3 text-uppercase text-white">HMP - Core+</h4> 
                             <div class="pb-4 ps-3 pe-3 pt-4"> 
                                 <ul class="list-unstyled mb-4"> 
-                                    <li class="pb-2 pt-2">Water Softener Salt</li>
-                                    <li class="pb-2 pt-2">Exchange Grill Tank</li>
-                                    <li class="pb-2 pt-2">Clean Gutters</li>
-                                    <li class="pb-2 pt-2">Clean Dryer Vent</li>
-                                    <li class="pb-2 pt-2">Spray Mosquitos</li>
-                                    <li class="pb-2 pt-2">Vacation (while you&apos;re away)</li>                                     
+                                    <li class="pb-2 pt-2">Unlimited Pages</li>
+                                    <li class="pb-2 pt-2">Unlimited Storage</li>
+                                    <li class="pb-2 pt-2">Unlimited Bandwidth</li>
+                                    <li class="pb-2 pt-2">Custom Domain</li>
+                                    <li class="pb-2 pt-2">24/7 Support</li>                                     
                                 </ul>                                 
                                 <a href="#" class="btn btn-dark">Sign Up</a> 
                             </div>                             
@@ -219,50 +218,6 @@ access, and I&rsquo;ll be on the job!</p>
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <footer class="bg-light pt-5 text-secondary" data-pgc="ghs.footer"> 
-            <div class="container"> 
-                <div class="row"> 
-                    <div class="col-xl-7 me-auto py-3"> 
-                        <a href="#" class="d-inline-block h2 mb-4 text-decoration-none text-uppercase" target="_pg_blank">Gathje Home Services</a> 
-                        <p class="mb-3">From single visit home repairs to small remodels and full service home maintenance,&nbsp; Gathje Home Services has the experience and expertise needed to serve you well!</p> 
-                        <div class="mb-4"> 
-                            <a href="tel:5074214337">507-421-4337</a> 
-                            <br> 
-                            <a href="mailto:service@gathjehomeservices.com">service@gathjehomeservices.com</a> 
-                        </div>                         
-                    </div>                     
-                    <div class="col-sm-4 col-xl-3 py-3"> 
-                        <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Services</h2> 
-                        <ul class="list-unstyled"> 
-                            <li class="mb-3"> 
-                                <a href="home-maintenance-plan.html" class="text-secondary">Home Maintenance Plan</a> 
-                            </li>                             
-                            <li class="mb-3"> 
-                                <a href="handyman-services.html" class="text-secondary">Handyman Services</a>
-                            </li>                             
-                            <li class="mb-3"> 
-                                <a href="Specialties" class="text-secondary">Specialties</a>
-                            </li>                             
-                        </ul>                         
-                    </div>                     
-                    <div class="col-sm-4 col-xl-2 py-3"> 
-                        <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Other</h2> 
-                        <ul class="list-unstyled"> 
-                            <li class="mb-3"> 
-                                <a href="index.html" class="text-secondary">Home</a> 
-                            </li>                             
-                        </ul>                         
-                    </div>                     
-                    <div class="col-sm-4 col-xl-2 py-3"> 
-                        <a href="https://clienthub.getjobber.com/client_hubs/bb751702-bf37-4284-a902-b8d67afac289/public/work_request/new?source=social_media" class="btn btn-secondary" target="_pg_blank">Book Online</a> 
-                    </div>                     
-                </div>                 
-                <div class="pb-3 pt-3 text-center"> 
-                    <hr class="mt-0 "> 
-                    <p class="mb-0">Copyright &copy; 2021 Gathje Home Services</p> 
-                </div>                 
-            </div>             
-        </footer>
         <script src="assets/js/popper.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>

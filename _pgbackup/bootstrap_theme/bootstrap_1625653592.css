@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900|Arvo&display=swap");
 html {
-  font-size: 125% !important; }
+  font-size: 105% !important; }
 
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
@@ -30,7 +29,7 @@ html {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-font-sans-serif: "Fira Sans", sans-serif;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
 
@@ -67,7 +66,6 @@ hr:not([size]) {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Arvo", serif;
   font-weight: 500;
   line-height: 1.2; }
 
@@ -3665,12 +3663,12 @@ textarea.form-control-lg {
     color: #2a2a2c; }
 
 .alert-warning {
-  color: #997404;
+  color: #664d03;
   background-color: #fff3cd;
   background-image: var(--bs-gradient);
   border-color: #ffecb5; }
   .alert-warning .alert-link {
-    color: #7a5d03; }
+    color: #523e02; }
 
 .alert-danger {
   color: #842029;
@@ -3948,15 +3946,15 @@ textarea.form-control-lg {
     border-color: #353537; }
 
 .list-group-item-warning {
-  color: #997404;
+  color: #664d03;
   background-color: #fff3cd; }
   .list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
-    color: #997404;
+    color: #664d03;
     background-color: #e6dbb9; }
   .list-group-item-warning.list-group-item-action.active {
     color: white;
-    background-color: #997404;
-    border-color: #997404; }
+    background-color: #664d03;
+    border-color: #664d03; }
 
 .list-group-item-danger {
   color: #842029;
